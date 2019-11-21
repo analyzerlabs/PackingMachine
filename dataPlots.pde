@@ -15,10 +15,10 @@ class knob {
     void init(){
         stroke(lineButton);
         fill(lineButton);
-        arc(posx, posy, 2*R+5, 2*R+r/3, 0, 2*PI, PIE);
+        arc(posx, posy, 2*R+5, 2*R+5, 0, 2*PI, PIE);
         fill(fondoPrincipal);
         stroke(fondoPrincipal);
-        arc(posx, posy, 2*R-5, 2*R-r/3, 0, 2*PI, PIE); 
+        arc(posx, posy, 2*R-5, 2*R-5, 0, 2*PI, PIE); 
         stroke(letraSecundaria);
         fill(letraSecundaria);
         textSize(smallLetters);
